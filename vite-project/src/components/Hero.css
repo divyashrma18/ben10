@@ -1,0 +1,42 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #04703d, #000);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .alien-slider {
+    display: flex;
+    gap: 50px;
+    cursor: grab;
+    margin-top: 100px;
+  }
+  
+  .alien-slider:active {
+    cursor: grabbing;
+  }
+  
+  .alien-card {
+    min-width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .alien-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* filter: drop-shadow(0px 0px 10px #00ff88); */
+    transition: transform 0.3s ease;
+  }
+  
+  .alien-card img:hover {
+    transform: scale(1.1);
+  }
+  

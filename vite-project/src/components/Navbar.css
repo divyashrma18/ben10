@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  align-items: center;
+  background: transparent;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #00ff88; /* neon green hover (Ben 10 style) */
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  font-family: 'Orbitron', sans-serif;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: black;
+}
+
+.btn-fill {
+  background: #00ff88;
+  border: 2px solid #00ff88;
+  color: black;
+}
+
+.btn-fill:hover {
+  background: transparent;
+  color: #00ff88;
+}
