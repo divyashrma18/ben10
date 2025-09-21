@@ -91,12 +91,10 @@ const Slider = () => {
       className="slider"
       style={{ background: aliens[index].background }}
     >
-      {/* Left Arrow */}
       <button className="arrow left-arrow" onClick={handlePrev}>
         <FaChevronLeft size={28} />
       </button>
 
-      {/* Image Section */}
       <div className="slider-images">
         {aliens.map((alien, i) => {
           const offset = (i - index + aliens.length) % aliens.length;
@@ -154,12 +152,10 @@ const Slider = () => {
         })}
       </div>
 
-      {/* Right Arrow */}
       <button className="arrow right-arrow" onClick={handleNext}>
         <FaChevronRight size={28} />
       </button>
 
-      {/* Info Section with Framer Motion */}
       <div className="slider-info-wrapper">
         <AnimatePresence mode="wait" custom={direction}>
           <motion.div

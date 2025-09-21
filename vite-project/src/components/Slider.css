@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /* background: linear-gradient(135deg, #0a0f2c, #000); */
     color: white;
     font-family: "Orbitron", sans-serif;
     padding: 0 100px;
@@ -21,7 +20,6 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    /* background-color: crimson; */
   }
   
   .alien-img {
@@ -32,7 +30,6 @@
     will-change: transform, opacity, filter;
   }
   
-  /* Info */
   .slider-info {
     max-width: 500px;
   }
@@ -48,10 +45,8 @@
     line-height: 2.1;
     color: #ddd;
     width: 500px;
-    /* background-color: crimson; */
   }
   
-  /* Arrows */
   .arrow {
     position: absolute;
     top: 90%;
